@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPG Inspiration Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset e configurações básicas */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #e2e8f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+    }
+    /* Cabeçalho */
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* Navegação */
+    nav {
+      background: #4a5568;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+    nav a {
+      color: #f7fafc;
+      margin: 0.5rem 1rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #d53f8c;
+    }
+    /* Container principal */
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    /* Seções */
+    .section {
+      background: #fff;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    .section h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #4a5568;
+      border-bottom: 3px solid #667eea;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .section h3 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+      color: #667eea;
+    }
+    .section p {
+      margin: 1rem 0;
+      font-size: 1rem;
+    }
+    ul {
+      list-style: disc inside;
+      margin-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+    ul li a {
+      color: #667eea;
+      font-weight: 500;
+    }
+    ul li a:hover {
+      color: #d53f8c;
+    }
+    /* Botões e Inputs */
+    button, select {
+      font-family: inherit;
+    }
+    button {
+      padding: 10px 20px;
+      background: #667eea;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #5a67d8;
+    }
+    select {
+      padding: 8px;
+      font-size: 1rem;
+      margin-right: 10px;
+      border: 1px solid #cbd5e0;
+      border-radius: 5px;
+    }
+    /* Rodapé */
+    footer {
+      background: #4a5568;
+      color: #f7fafc;
+      text-align: center;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .credit {
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+      font-size: 0.8rem;
+    }
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RPG Inspiration Hub</h1>
+    <p>Descubra livros, ideias, recursos, dicas e sistemas para criar seu RPG!</p>
+  </header>
+  
+  <nav>
+    <a href="#livros">Livros</a>
+    <a href="#ideias">Ideias</a>
+    <a href="#criacao">Personagens</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#erros">Erros Comuns</a>
+    <a href="#mestres">Mestres</a>
+    <a href="#sistemas">Sistemas</a>
+    <a href="#dado">Dados</a>
+  </nav>
+  
+  <div class="container">
+    <!-- Seção de Livros -->
+    <section id="livros" class="section">
+      <h2>Livros de RPG</h2>
+      <ul>
+        <li><a href="https://www.ordemparanormal.com.br/" target="_blank">Ordem Paranormal</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Vampiro:_A_M%C3%A1scara" target="_blank">Vampiro: A Máscara</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Call_of_Cthulhu_(jogo)" target="_blank">Call of Cthulhu</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Paranoia_(jogo_de_role-playing)" target="_blank">Paranoia</a></li>
+        <li><a href="https://indie-rpgs.com/dread/" target="_blank">Dread</a></li>
+      </ul>
+    </section>
+    
+    <!-- Seção de Ideias para Criação de RPG -->
+    <section id="ideias" class="section">
+      <h2>Ideias para Criação de RPG</h2>
+      <p>Explore diversas abordagens para criar mundos únicos e enredos cativantes:</p>
+      <ul>
+        <li><strong>Enredos Inovadores:</strong> Misture gêneros como horror, fantasia, ficção científica e investigação.</li>
+        <li><strong>Mundos Únicos:</strong> Crie universos com culturas, regras e histórias próprias.</li>
+        <li><strong>Sistemas de Magia:</strong> Desenvolva sistemas com custos e consequências reais.</li>
+        <li><strong>Interatividade:</strong> Permita que os jogadores contribuam para a construção da narrativa.</li>
+      </ul>
+    </section>
+    
+    <!-- Seção de Criação de Personagens -->
+    <section id="criacao" class="section">
+      <h2>Criação de Personagens</h2>
+      <p>Crie personagens profundos e envolventes com estas dicas:</p>
+      <ul>
+        <li><strong>História de Fundo:</strong> Desenvolva uma narrativa pessoal rica para cada personagem.</li>
+        <li><strong>Personalidade Marcante:</strong> Equilibre virtudes e defeitos para criar conflitos e evoluções.</li>
+        <li><strong>Atributos e Habilidades:</strong> Distribua pontos de forma coerente com o enredo.</li>
+        <li><strong>Evolução:</strong> Permita que os personagens cresçam e mudem ao longo da campanha.</li>
+      </ul>
+      <h3>O que é RPG e como funciona?</h3>
+      <p>
+        O RPG (Role-Playing Game) é um jogo de interpretação de papéis onde os jogadores criam e evoluem personagens em uma narrativa colaborativa, guiada por um mestre que estrutura os desafios e cenários.
+      </p>
+    </section>
+    
+    <!-- Seção de Recursos Online -->
+    <section id="recursos" class="section">
+      <h2>Recursos Online</h2>
+      <p>Ferramentas que auxiliam na organização e criação do seu RPG:</p>
+      <ul>
+        <li>
+          <a href="https://owlbear.rodeo" target="_blank">Owlbear Rodeo</a> - Visualize e manipule mapas e cenários interativamente.
+        </li>
+        <li>
+          <a href="https://2minutetabletop.com/" target="_blank">2Minute Tabletop</a> - Crie mapas e ambientes rapidamente.
+        </li>
+        <li>
+          <a href="https://www.notion.so/" target="_blank">Notion</a> - Organize campanhas, fichas e anotações em um único lugar.
+        </li>
+      </ul>
+      <p>
+        Essas ferramentas ajudam a estruturar e dar vida à sua campanha, facilitando a criação de mapas, o gerenciamento de informações e a colaboração entre os jogadores.
+      </p>
+    </section>
+    
+    <!-- Seção de Erros Comuns -->
+    <section id="erros" class="section">
+      <h2>Erros Comuns na Criação de RPG</h2>
+      <p>Evite alguns dos erros mais frequentes que podem comprometer a experiência de jogo:</p>
+      <ul>
+        <li><strong>Enredo Confuso:</strong> Falta de clareza na narrativa pode deixar os jogadores perdidos.</li>
+        <li><strong>Personagens Superficiais:</strong> Não desenvolver o background e a personalidade dos personagens.</li>
+        <li><strong>Regras Desbalanceadas:</strong> Sistemas muito complexos ou desiguais podem prejudicar a diversão.</li>
+        <li><strong>Excesso de Complexidade:</strong> Informações demais podem tornar o jogo lento e difícil de acompanhar.</li>
+        <li><strong>Falta de Feedback:</strong> Ignorar as sugestões e críticas dos jogadores impede a evolução do jogo.</li>
+        <li><strong>Preparação Insuficiente do Mestre:</strong> Um bom mestre precisa estar sempre preparado para improvisar e guiar a narrativa.</li>
+      </ul>
+      <p>
+        Aprenda com esses erros e esteja sempre aberto a ajustar as regras e o enredo conforme a necessidade da campanha e o feedback dos jogadores.
+      </p>
+    </section>
+    
+    <!-- Seção de Exemplos de Mestres -->
+    <section id="mestres" class="section">
+      <h2>Exemplos de Mestres de RPG</h2>
+      <h3>Mestres Bons</h3>
+      <ul>
+        <li><strong>Mestre Interativo:</strong> Ouve os jogadores, adapta a narrativa e incentiva a criatividade.</li>
+        <li><strong>Mestre Preparado:</strong> Planeja encontros e desafios, mas também sabe improvisar conforme a situação.</li>
+        <li><strong>Mestre Colaborativo:</strong> Estimula a participação de todos, criando um ambiente inclusivo e divertido.</li>
+      </ul>
+      <h3>Mestres Ruins</h3>
+      <ul>
+        <li><strong>Mestre Autoritário:</strong> Impõe regras rígidas sem ouvir os jogadores, limitando a liberdade criativa.</li>
+        <li><strong>Mestre Desorganizado:</strong> Falta de preparo e planejamento, gerando confusão e interrupções no fluxo do jogo.</li>
+        <li><strong>Mestre Inflexível:</strong> Ignora sugestões e críticas, tornando o jogo monótono e desmotivador.</li>
+      </ul>
+    </section>
+    
+    <!-- Seção de Sistemas de Jogo -->
+    <section id="sistemas" class="section">
+      <h2>Sistemas de Jogo</h2>
+      <h3>Dungeons & Dragons (D&D)</h3>
+      <p>
+        Dungeons & Dragons é um sistema de RPG baseado no d20, onde os jogadores criam personagens escolhendo raças, classes e habilidades. A narrativa é conduzida por um mestre, e a resolução de ações se dá através da rolagem de dados, definindo sucessos e fracassos em combates, desafios e investigações.
+      </p>
+      <h3>Ordem Paranormal</h3>
+      <p>
+        O sistema Ordem Paranormal enfatiza a atmosfera de horror e mistério, utilizando regras mais simples e mecânicas narrativas para promover a investigação e o suspense. Nele, o foco é criar uma experiência imersiva onde os jogadores desvendam segredos sombrios e enfrentam desafios que vão além do combate tradicional.
+      </p>
+    </section>
+    
+    <!-- Seção de Dados Virtuais -->
+    <section id="dado" class="section">
+      <h2>Dados Virtuais</h2>
+      <p>Selecione o tipo de dado e clique para rolar:</p>
+      <select id="diceType">
+        <option value="4">D4</option>
+        <option value="6" selected>D6</option>
+        <option value="8">D8</option>
+        <option value="10">D10</option>
+        <option value="12">D12</option>
+        <option value="20">D20</option>
+        <option value="100">D100</option>
+      </select>
+      <button id="rollDice">Rolar Dado</button>
+      <p>Resultado: <span id="diceResult">-</span></p>
+    </section>
+    
+  </div>
+  
+  <footer>
+    <p>© 2025 RPG Inspiration Hub</p>
+    <div class="credit">Feito por Filipe</div>
+  </footer>
+  
+  <script>
+    // Função para rolar o dado conforme o tipo selecionado
+    document.getElementById('rollDice').addEventListener('click', function(){
+      const diceMax = parseInt(document.getElementById('diceType').value);
+      const result = Math.floor(Math.random() * diceMax) + 1;
+      document.getElementById('diceResult').textContent = result;
+    });
+  </script>
+</body>
+</html>
